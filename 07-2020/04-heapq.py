@@ -24,6 +24,8 @@ def test_01():
     sol = Solution()
     assert sol.nthUglyNumber(1) == 1
     assert sol.nthUglyNumber(10) == 12
+    assert sol.nthUglyNumber(100) == 1536
+    assert sol.nthUglyNumber(1690) == 2123366400
 
 if __name__ == '__main__':
     test_01()
