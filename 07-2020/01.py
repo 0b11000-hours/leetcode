@@ -1,3 +1,6 @@
+# https://leetcode.com/problems/arranging-coins/
+# Solution 1: ax^2 + bx + c = 0 [ (-b +- (b^2 - 4ac)^0.5) / 2a] ==> k(k+1)/2 = n
+
 class Solution(object):
     def arrangeCoins(self, n):
         """
